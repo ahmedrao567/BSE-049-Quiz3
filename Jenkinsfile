@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run') {
             steps {
-               bat 'python main.py'
+               bat 'python3 main.py'
             }
         }
     }
